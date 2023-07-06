@@ -24,7 +24,7 @@ arregloDeObjetos(5, "hola")
 function arregloDeObjetos(num, pal){
   let arr = [];
   for (let i = 1; i <= num; i++){
-    arr[i-1] = {[pal] : i}
+    arr.push({[pal] : i})
   }
   return arr;
 }
